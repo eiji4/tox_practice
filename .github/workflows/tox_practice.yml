@@ -15,5 +15,5 @@ jobs:
       - name: Install Tox and any other packages
         run: pip install tox
       - name: Run Tox
-        run: tox -v -e py --cov=hoge
+        run: tox -v --cov=hoge -e py
 
