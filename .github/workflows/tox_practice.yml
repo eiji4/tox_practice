@@ -1,4 +1,4 @@
-name: CI
+name: tox_CI
 on: [push, pull_request]
 jobs:
   build:
